@@ -1,0 +1,17 @@
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%E6%B8%85%E6%98%8E%E8%8A%82
+
+import requests
+import time
+import random
+
+base_url = 'http://tieba.baidu.com/f?kw=python&ie=utf-8&pn='
+for page in range(1,10):
+    pn = (page-1)*50
+    url = base_url+str(pn)
+    response = requests.get(url)
+    time.sleep(random.random()*2)
+
+    
+with open('file.txt','w',encoding='utf-8') as file:
+    file.write(content)
+

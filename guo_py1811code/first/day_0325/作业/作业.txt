@@ -1,0 +1,42 @@
+level 1:
+1、阅读课件
+2、 什么是 http 协议？
+3、 http 和 https 的区别？
+4、 如何审查页面元素？
+5、 get 方法和 pos 方法的区别？
+6、 常见的状态码有哪些？
+7、什么是爬虫？爬虫有哪些分类？
+8、 数据爬取的步骤有哪些？
+9、案例：百度模拟搜索“长城”
+10、案例：用cookie模拟登陆人人网
+
+level 2:
+1、范例： 批量爬取贴吧数据
+输入贴吧名称，起始页码，结束页码，爬取贴吧数据，以‘第 x 页.html’命名， 保存为
+html 文件
+
+2、爬取https://www.qq.com/
+保存页面为，qq.html
+
+3、爬取搜狗动漫
+http://kan.sogou.com/dongman/
+保存页面为，dongman.html
+
+4、用cookie模拟登陆微博
+http://www.weibo.com/login.php
+
+
+level 3:
+4、爬取4399
+http://www.4399.com/?haoqqdh  ,
+保存页面为，4399.html
+
+5、搜狐健康
+http://health.sohu.com/?spm=smpc.home.top-nav.24.1550453761461Q0shOpW
+保存页面为，sohuhealth.html
+
+
+urllib自学：
+urllib组成模块
+urlopen()方法
+Request 对象使用
