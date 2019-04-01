@@ -1,0 +1,10 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.renren.com	TRUE	/	FALSE	1580617593	_de	32B20555AD3784A6BF2D3D01B72FE013
+.renren.com	TRUE	/	FALSE	1580617594	_r01_	1
+.renren.com	TRUE	/	FALSE	1707193593	anonymid	jru4dx2k3ivfxv
+.renren.com	TRUE	/	FALSE	1549772794	depovince	GW
+.renren.com	TRUE	/	FALSE		jebecookies	55b51a38-97ad-4bae-b28c-65d54d85ea0e|||||
+www.renren.com	FALSE	/	FALSE		JSESSIONID	abchJJcyR_mL18oBrngJw
