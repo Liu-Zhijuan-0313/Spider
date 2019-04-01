@@ -1,0 +1,37 @@
+﻿level 1:
+1、阅读课件
+
+案例：腾讯招聘爬虫（bs4）：
+http://hr.tencent.com/position.php?&start=0#a
+提取职位名称，所在城市，发布日期，招聘人数，类别，链接
+
+案例：小说九星杀神爬虫(bs4):
+https://www.quanben.net/4/4408/
+爬取小说章节标题，链接，章节内容
+保存到mysql数据库
+
+案例：医疗器械网爬虫(bs4):
+http://www.chinamedevice.cn/
+爬取产品名称，url，封面url，产品类别，批准文号，产品规格，产品说明，生产企业，联系人，联系电话，移动电话，手机，单位地址
+数据保存到mongodb中
+
+level 2:
+
+案例：空姐网相册爬虫(bs4)
+http://www.kongjie.com/home.php?mod=space&do=album&view=all&page=1
+爬取相册照片，用uid + picid +'.jpg'命名，保存到images目录下
+
+
+案例：双色球爬虫(bs4):
+http://zst.aicai.com/ssq/openInfo/
+提取期号，日期，红色球，蓝色球，总投注额数，一等奖注数，一等奖奖金，二等奖注数，二等奖奖金，奖池滚存
+保存为caipiao.txt文件
+
+案例：豆瓣图书爬虫(bs4)
+https://book.douban.com/tag/?icn=index-nav
+按类别爬取图书的名称，url，作者，译者，出版社，出版日期，价格，评论数，评分，简介，类别，封面链接
+
+
+
+
+
