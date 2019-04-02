@@ -1,0 +1,25 @@
+[INFO  - 2019-04-01T07:20:28.429Z] GhostDriver - Main - running on port 37626
+[INFO  - 2019-04-01T07:20:32.453Z] Session [a2a5d4f0-544e-11e9-a4d0-b50f9a418620] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-04-01T07:20:32.454Z] Session [a2a5d4f0-544e-11e9-a4d0-b50f9a418620] - page.customHeaders:  - {}
+[INFO  - 2019-04-01T07:20:32.454Z] Session [a2a5d4f0-544e-11e9-a4d0-b50f9a418620] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-04-01T07:20:32.454Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a2a5d4f0-544e-11e9-a4d0-b50f9a418620
+[ERROR - 2019-04-01T07:20:37.021Z] Session [a2a5d4f0-544e-11e9-a4d0-b50f9a418620] - page.onError - msg: TypeError: null is not an object (evaluating 'e.appendChild')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-01T07:20:37.021Z] Session [a2a5d4f0-544e-11e9-a4d0-b50f9a418620] - page.onError - stack:
+  t (https://cpro.baidustatic.com/cpro/ui/noexpire/ws/widget/logo_d508a26.js:1)
+  d (https://cpro.baidustatic.com/cpro/ui/noexpire/ws/widget/logo_d508a26.js:1)
+  (anonymous function) (https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2FKwoky%2Farticle%2Fdetails%2F80285201&psi=ffb4a4b6fbfba51c8b8e0d0a88f80c2f&ti=Ubuntu%2016.04%E6%90%AD%E5%BB%BAftp%E6%9C%8D%E5%8A%A1%E5%99%A8%20-%20Kwoky%E7%9A%84%E5%8D%9A%E5%AE%A2%20-%20CSDN%E5%8D%9A%E5%AE%A2&dri=0&psr=1920x1080&ccd=32&prot=2&tpr=1554103234207&cja=false&tcn=1554103235&cec=UTF-8&pss=1277x7019&ps=251x757&pcs=400x300&dai=3&ant=0&cdo=-1&pis=-1x-1&chi=1&dis=0&dc=3&dtm=HTML_POST&ari=2&cce=true&exps=111000,110011&drs=1&tlm=1554074434&par=1920x1040&cfv=0&cpl=0&col=zh-CN&cmi=0:882)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-01T07:20:37.765Z] Session [a2a5d4f0-544e-11e9-a4d0-b50f9a418620] - page.onError - msg: TypeError: undefined is not an object (evaluating 'ifr.attr('src').split')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-01T07:20:37.765Z] Session [a2a5d4f0-544e-11e9-a4d0-b50f9a418620] - page.onError - stack:
+  listener (https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js:512)
+  dispatch (https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js:3)
+  handle (https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js:3)
+  appendChild (:0)
+  F (https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1076724771190722&output=html&h=250&slotname=7700527946&adk=3032243008&adf=1267030924&w=300&lmt=1554074435&guci=2.2.0.0.2.2.0.0&format=300x250&url=https%3A%2F%2Fblog.csdn.net%2FKwoky%2Farticle%2Fdetails%2F80285201&ea=0&flash=0&avail_w=300&wgl=0&dt=1554103234678&bpp=16&bdt=1693&fdt=1183&idt=1178&shv=r20190327&cbv=r20190131&saldr=aa&abxe=1&correlator=1172380295169&frm=20&pv=2&ga_vid=173298217.1554103236&ga_sid=1554103236&ga_hid=856449620&ga_fc=0&iag=0&icsg=8589934592&dssz=80&mdo=0&mso=8&u_tz=480&u_his=1&u_java=0&u_h=1080&u_w=1920&u_ah=1040&u_aw=1920&u_cd=32&u_nplug=0&u_nmime=0&adx=66&ady=329&biw=400&bih=300&scr_x=0&scr_y=0&eid=21060853%2C21063245&oid=3&rx=0&eae=2&fc=656&brdim=0%2C0%2C0%2C0%2C1920%2C0%2C0%2C0%2C400%2C300&vis=1&rsz=%7C%7CpeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=1048&bc=1&ifi=1&uci=a!1&dtd=1227:1)
+
+  phantomjs://platform/console++.js:263 in error
