@@ -1,0 +1,14 @@
+[INFO  - 2019-02-07T06:45:55.101Z] GhostDriver - Main - running on port 17352
+[INFO  - 2019-02-07T06:45:59.455Z] Session [0726b090-2aa4-11e9-aaea-95ea38cfab27] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-02-07T06:45:59.455Z] Session [0726b090-2aa4-11e9-aaea-95ea38cfab27] - page.customHeaders:  - {}
+[INFO  - 2019-02-07T06:45:59.456Z] Session [0726b090-2aa4-11e9-aaea-95ea38cfab27] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-02-07T06:45:59.456Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0726b090-2aa4-11e9-aaea-95ea38cfab27
+[ERROR - 2019-02-07T06:46:02.292Z] Session [0726b090-2aa4-11e9-aaea-95ea38cfab27] - page.onError - msg: TypeError: null is not an object (evaluating 'e.appendChild')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-07T06:46:02.292Z] Session [0726b090-2aa4-11e9-aaea-95ea38cfab27] - page.onError - stack:
+  t (https://cpro.baidustatic.com/cpro/ui/noexpire/ws/widget/logo_d508a26.js:1)
+  d (https://cpro.baidustatic.com/cpro/ui/noexpire/ws/widget/logo_d508a26.js:1)
+  (anonymous function) (https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2FKwoky%2Farticle%2Fdetails%2F80285201&psi=ac8b18706446a821855ca524b3716b53&cec=UTF-8&col=zh-CN&pis=-1x-1&tcn=1549521962&cce=true&psr=1920x1080&ant=0&cfv=0&pss=1366x6343&ps=719x549&dis=0&dtm=HTML_POST&prot=2&ccd=32&cmi=0&pcs=1366x768&ti=Ubuntu%2016.04%E6%90%AD%E5%BB%BAftp%E6%9C%8D%E5%8A%A1%E5%99%A8%20-%20Kwoky%E7%9A%84%E5%8D%9A%E5%AE%A2%20-%20CSDN%E5%8D%9A%E5%AE%A2&tlm=1549493161&chi=1&cja=false&cpl=0&dc=3&dai=4&par=1920x1040&exps=111000,110000&ari=2&dri=0&tpr=1549521961028&drs=1&cdo=-1:883)
+
+  phantomjs://platform/console++.js:263 in error

@@ -1,0 +1,31 @@
+level 1:
+阅读课件
+
+掌握滑动验证码的处理
+
+豆瓣电影信息爬虫
+https://movie.douban.com/explore#!type=movie&tag=%E7%83%AD%E9%97%A8&sort=recomm
+end&page_limit=20&page_start=0
+爬取电影的名称， url，评分，封面图片
+
+上市公司信息爬虫
+http://query.sse.com.cn/security/stock/getStockListData2.do?&jsonCallBack=jsonpCallback65650&isPagination=true&stockCode=&csrcCode=&areaName=&stockType=1&pageHelp.cacheSize=1&pageHelp.beginPage=1&pageHelp.pageSize=25&pageHelp.pageNo=1&_=1539005987996
+爬取上海证券交易所网站，
+获取 A 股上市公司信息，包括公司代码，公司简称， A 股代码，A 股简称,A 股总资本和 A 股流通资本
+保存到mysql数据库
+
+level 2:
+股市行情爬虫
+http://vip.stock.finance.sina.com.cn/mkt/#sh_a
+爬取沪深两市A股，B股，AB股，深市债券，沪市债券信息，保存到myssql数据库
+
+海报图片爬虫
+http://www.haibao.com/
+http://pic.haibao.com/piclists/
+爬取海报图片
+
+腾讯动漫爬虫
+https://new.qq.com/ch/comic/
+
+
+
